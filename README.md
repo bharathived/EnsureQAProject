@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/bharathiv9/EnsureQAProject/_apis/build/status%2Fbharathived.EnsureQAProject?branchName=main)](https://dev.azure.com/bharathiv9/EnsureQAProject/_build/latest?definitionId=11&branchName=main)
 # Project Starter
 This repository contains the starter code for the **Ensuring Quality Releases** project of the cd1807 Ensuring Quality Releases (Quality Assurance) course taught by Nathan Anderson. 
 
