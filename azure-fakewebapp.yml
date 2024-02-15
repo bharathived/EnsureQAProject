@@ -61,6 +61,6 @@ stages:
               azureSubscription: '$(azureServiceConnectionId)'     # ToDo
               appName: 'FakeRestApiBV'               # ToDo
               appType: webApp
-              package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId)-fakerestapi.zip'# ToDo: Use the published zip artifact. 
+              package: '$(Pipeline.Workspace)/drop-fakerestapi/$(Build.BuildId)-fakerestapi.zip'# ToDo: Use the published zip artifact. 
           #--------------------------------------------#    
  
