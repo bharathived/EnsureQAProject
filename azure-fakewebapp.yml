@@ -59,7 +59,7 @@ stages:
             displayName: 'Deploy Azure Web App'
             inputs:
               azureSubscription: '$(azureServiceConnectionId)'     # ToDo
-              appName: 'FakeRestApi'               # ToDo
+              appName: 'FakeRestApiBV'               # ToDo
               appType: webApp
               package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId)-fakerestapi.zip'# ToDo: Use the published zip artifact. 
           #--------------------------------------------#    
